@@ -1,0 +1,61 @@
+
+.home .box-main{
+    width: 100%;
+    display: flex;
+  }
+  .home .box-main .row{
+    margin-right: 0;
+  }
+  .home .firstHalf .text-1{
+      font-size: 40px;
+  }
+  .home .firstHalf .text-2{
+      font-size: 25px;
+      font-weight: 600;
+      margin-left: -3px;
+  }
+  .home .firstHalf .text-3{
+      font-size: 35px;
+      margin: 5px 0;
+  }
+  .home .firstHalf .text-3 span{
+      color: crimson;
+      font-weight: 500;
+  }
+  .home .firstHalf a{
+      display: inline-block;
+      background: crimson;
+      color: #fff;
+      font-size: 25px;
+      padding: 12px 36px;
+      margin-top: 20px;
+      font-weight: 400;
+      border-radius: 6px;
+      border: 2px solid crimson;
+      transition: all 0.3s ease;
+  }
+  .home .firstHalf a:hover{
+      color: crimson;
+      background: none;
+  }
+  
+  @media only screen and (max-width: 1140px){
+  
+      .home .firstHalf .text-1{
+          font-size: 38px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+      }
+      .home .firstHalf .text-2{
+          font-size: 25px;
+          font-weight: 600;
+          margin-left: -3px;
+         
+      }
+      .home .firstHalf .text-3{
+          font-size: 26px;
+          margin: 5px 0;
+          padding-top: 5px;
+      }
+  
+  }
